@@ -13,7 +13,7 @@ environment = "asia-southeast1-gcp-free"
 
 index_name="aws"
 
-openai_api_key="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"
+openai_api_key="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"
 
 # os.environ["OPENAI_API_KEY"] = "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"
 # cursor.execute(f"LIST {stage_file_path}")

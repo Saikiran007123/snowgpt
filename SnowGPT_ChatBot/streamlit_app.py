@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Define a list to store search history
 search_history = []

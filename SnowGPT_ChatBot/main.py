@@ -52,7 +52,7 @@ if show_history:
     with st.sidebar.expander("Query History"):
         for i, request in enumerate(st.session_state['requests']):
             st.write(f"{i + 1}. {request}")
-
+openai_api_key="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"
 llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key=openai_api_key)
 
 if 'buffer_memory' not in st.session_state:
